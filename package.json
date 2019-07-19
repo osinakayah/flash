@@ -11,16 +11,16 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "apisauce": "^1.0.2",
-    "node-sass": "^4.11.0",
-    "react": ">=15",
-    "react-dom": "^16.7.0",
-    "react-redux": "^6.0.0",
-    "react-router-dom": "^4.3.1",
-    "redux": "^4.0.1",
+    "apisauce": "^1.0.3",
+    "node-sass": "^4.12.0",
+    "react": ">=16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
     "redux-persist": "^5.10.0",
-    "redux-saga": "^1.0.0",
-    "reduxsauce": "^1.0.1",
+    "redux-saga": "^1.0.5",
+    "reduxsauce": "^1.1.0",
     "seamless-immutable": "^7.1.4"
   },
   "devDependencies": {
@@ -28,6 +28,6 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "1.9.7"
+    "parcel-bundler": "1.12.3"
   }
 }
