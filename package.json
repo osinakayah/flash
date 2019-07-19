@@ -1,7 +1,8 @@
 {
-  "name": "Flash",
+  "name": "flash",
   "scripts": {
-    "start": "./node_modules/parcel-bundler/bin/cli.js index.html"
+    "start": "NODE_ENV=development ./node_modules/parcel-bundler/bin/cli.js index.html --open",
+    "build": "NODE_ENV=production ./node_modules/parcel-bundler/bin/cli.js build index.html"
   },
   "version": "1.0.0",
   "description": "A quick Starter for react projects",
